@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { decrement, increment, incrementByValue } from '../redux/features/counter/counterSlice';
@@ -21,3 +23,4 @@ const Counter = () => {
 };
 
 export default Counter;
+
