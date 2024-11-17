@@ -18,6 +18,7 @@ const Counter = () => {
             <button onClick={()=> dispatch(incrementByValue(5))} className='bg-orange-300 px-6 py-2 mr-3'>Increment by 5</button>
             <button onClick={()=> dispatch(decrement())} className='bg-blue-300 px-6 py-2'>Decrement</button>
             </div>
+
         </div>
     );
 };
